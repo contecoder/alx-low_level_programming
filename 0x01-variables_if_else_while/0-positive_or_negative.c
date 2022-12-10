@@ -19,7 +19,7 @@ printf("%u is positive\n", n);
 }
 else if (n < 0)
 {
-printf("%u is negative\n", n);
+printf("%d is negative\n", n);
 }
 else
 {
