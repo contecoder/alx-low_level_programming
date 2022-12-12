@@ -1,0 +1,23 @@
+#include<stdlib.h>
+#include<stdio.h>
+#include<time.h>
+/* more headers goes there */
+/**
+ *main- betty style doc for function main goes there
+ *
+ *Return: always 0 (success)
+ */
+int main(void)
+{
+char number[10] = "0123456789";
+int i;
+for (i = 0 ; i <= 9 ; i++)
+{
+putchar(number[i]);
+putchar(',');
+if (i != 9)
+putchar(' ');
+}
+putchar('\n');
+return (0);
+}
