@@ -1,0 +1,19 @@
+#include"main.h"
+/**
+ *islower - that function function print  1 if lower 0 if not
+ *
+ *
+ */
+int islower(char)
+{
+if (isupper(charc))
+{
+putchar(0 + '0');
+return (0);
+}
+else
+{
+putchar(1 + '0');
+return (1);
+}
+}
