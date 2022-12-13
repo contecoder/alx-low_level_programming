@@ -10,6 +10,6 @@ int r ;
 r = _islower('H');
 r = _islower('o');
 r = _islower(108);
-putchar('\n');
+printf("\n");
 return (r); 
 }
