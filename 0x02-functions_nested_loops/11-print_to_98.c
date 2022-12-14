@@ -19,14 +19,20 @@ else if (n > 98)
 {
 for (i = n ; i >= 98 ; i--)
 {
+if(n != 98)
 printf("%d, ", i);
+else
+printf("98");
 }
 }
 else
 {
 for (i = n ; i <= 98 ; i++)
 {
+if (n != 98)
 printf("%d, ", i);
+else
+printf("98");
 }
 }
 printf("\n");
