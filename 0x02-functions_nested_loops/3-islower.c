@@ -2,12 +2,12 @@
 /**
  *islower - that function function print  1 if lower 0 if not
  *
- *Return : 1 (lowercase) 0 (uppercase)
+ *@n: 1 (lowercase) 0 (uppercase)
  */
 
-int _islower(char charc)
+int _islower(int n)
 {
-if (isupper(charc))
+if (isupper(n))
 {
 putchar(0 + '0');
 return (0);
