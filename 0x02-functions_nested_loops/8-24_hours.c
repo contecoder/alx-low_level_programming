@@ -20,7 +20,7 @@ printf("0%d:0%d\n", i , j);
 }
 else
 {
-printf("%d:%d\n", i , j);
+printf("0%d:%d\n", i , j);
 }
 }
 else
