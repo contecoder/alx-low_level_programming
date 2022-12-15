@@ -7,3 +7,4 @@ int _islower(int);
 int add(int, int);
 void print_to_98(int);
 void times_table(void);
+void jack_bauer(void);
