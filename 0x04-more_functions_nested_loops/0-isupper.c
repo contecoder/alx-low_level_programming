@@ -1,6 +1,4 @@
 #include"main.h"
-#include<string.h>
-#include<ctype.h>
 /**
  *_isupper- this a descripition
  *
@@ -11,13 +9,10 @@ int _isupper(int c)
 {
 if (isupper(c))
 {
-printf("%c: 1\n", c);
 return (1);
 }
 else
 {
-printf("%c: 0\n", c);
 return (0);
 }
-return (c);
 }
