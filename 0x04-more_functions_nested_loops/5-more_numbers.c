@@ -10,7 +10,7 @@ int j;
 char val[20] = "01234567891011121314";
 for (j = 1; j <= 10; j++)
 {
-for (i = 0; i <= 20; i++)
+for (i = 0; i < 19; i++)
 {
 putchar(val[i]);
 }
