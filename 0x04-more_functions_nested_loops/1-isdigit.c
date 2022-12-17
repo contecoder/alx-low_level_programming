@@ -7,7 +7,7 @@
  */
 int _isdigit(int c)
 {
-if (c == '0')
+if (isdigit(c))
 {
 return (1);
 }
