@@ -3,7 +3,7 @@
  *mul- this a descripition
  *
  *@a: value
- *@b: vlues 
+ *@b: vlues
  *Return: 0 is false and 1 if true
  */
 int mul(int a, int b)
