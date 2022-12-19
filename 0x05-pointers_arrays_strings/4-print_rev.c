@@ -12,7 +12,10 @@ int i;
 i = strlen(str);
 while (i >= 0)
 {
+if(*(str + i) != '\0')
+{
 putchar(*(str + i));
+}
 i--;
 }
 putchar('\n');
