@@ -8,7 +8,7 @@
  */
 void rev_string(char *s)
 {
-int i;
+long int i;
 int j;
 char reverse[446];
 i = strlen(s) - 1;
@@ -21,7 +21,7 @@ j++;
 }
 i = 0;
 j = strlen(s) - 1;
-while (i <= 10)
+ while (i <= 446)
 {
 *(s + i) = reverse[i];
 i++;
