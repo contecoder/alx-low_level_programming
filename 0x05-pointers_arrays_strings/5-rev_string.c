@@ -10,7 +10,7 @@ void rev_string(char *s)
 {
 int i;
 int j;
-char reverse[10];
+char reverse[446];
 i = strlen(s) - 1;
 j = 0;
 while (i >= 0)
@@ -20,6 +20,7 @@ i--;
 j++;
 }
 i = 0;
+j = strlen(s) - 1;
 while (i <= 10)
 {
 *(s + i) = reverse[i];
