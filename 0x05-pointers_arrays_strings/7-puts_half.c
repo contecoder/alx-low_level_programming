@@ -10,7 +10,7 @@ void puts_half(char *str)
 {
 int i;
 int half = (strlen(str)) / 2;
-for (i = half; i < 446; i++)
+for (i = half; i < 445; i++)
 {
 if (*(str + i) == '\0')
 {
@@ -18,7 +18,7 @@ break;
 }
 else
 {
-if(*(str + 1) != '\n')
+if (*(str + 1) != '\n')
 putchar(*(str + i));
 }
 }
