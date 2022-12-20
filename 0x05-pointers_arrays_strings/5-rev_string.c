@@ -21,9 +21,12 @@ j++;
 }
 i = 0;
 j = strlen(s) - 1;
- while (i <= 446)
+while (i <= 446)
+{
+if (*(s + i) != '\0')
 {
 *(s + i) = reverse[i];
+}
 i++;
 }
 }
