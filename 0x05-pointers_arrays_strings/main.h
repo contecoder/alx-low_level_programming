@@ -7,3 +7,4 @@ int _strlen(char *str);
 void print_rev(char *str);
 void rev_string(char *s);
 void print_array(int *a, int n);
+void puts2(char *str);

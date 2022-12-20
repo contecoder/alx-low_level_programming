@@ -1,0 +1,28 @@
+#include"main.h"
+#include<stdio.h>
+#include<string.h>
+/**
+ *puts2- the function that change value
+ *@str: the pointer of n
+ *
+ */
+void puts2(char str)
+{
+long int i;
+char *c;
+ for (i = 0; i <= 100; i++)
+   {
+     c =str[i];
+     
+if (atoi(c) % 2 == 0)
+{
+if(*(str + i) == '\0')
+{
+break;
+}
+putchar(*(str + i));
+i++;
+}
+   }
+putchar('\n');
+}
