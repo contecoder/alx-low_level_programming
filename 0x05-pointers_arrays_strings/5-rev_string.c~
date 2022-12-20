@@ -1,0 +1,20 @@
+#include"main.h"
+#include<stdio.h>
+#include<string.h>
+/**
+ *reverse_string- the function that change value
+ *@str: the pointer of n
+ *
+ */
+void reverse_string(char *str)
+{
+int i;
+char reverse[10];
+i = 9;
+while (i <= 9)
+{
+reverse[i] = *(str + i);
+i++;
+}
+*str = reverse;
+}
