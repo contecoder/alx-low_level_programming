@@ -9,7 +9,7 @@
 void puts2(char *str)
 {
 int i;
-for (i = 0; i < 446; i++)
+for (i = 0; i < 446; i = i + 2)
 {
 if (*(str + i) == '\0')
 {
@@ -19,6 +19,6 @@ else
 {
 putchar(*(str + i));
 }
-putchar('\n');
 }
+putchar('\n');
 }
