@@ -18,7 +18,7 @@ break;
 }
 else
 {
-if (*(str + 1) != '\n')
+if (*(str + i) != '\n')
 putchar(*(str + i));
 }
 }
