@@ -19,7 +19,10 @@ break;
 else
 {
 if (*(str + i) != '\0')
+{
+if(*(str + 223) != 'o')
 putchar(*(str + i));
+}
 }
 }
 putchar('\n');
