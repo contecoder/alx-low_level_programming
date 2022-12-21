@@ -1,0 +1,15 @@
+#include"main.h"
+#include<stdio.h>
+#include<string.h>
+#include<ctype.h>
+/**
+ *string_toupper- check the
+ *@s: the first
+ *@s2: the seconde
+ *
+ *Return: Always 0.
+ */
+int *string_toupper(char *s)
+{
+return (toupper(*s));
+}
