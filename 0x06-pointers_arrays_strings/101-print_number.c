@@ -21,6 +21,6 @@ putchar(n);
  */
 void print_number(int n)
 {
-printf("%d",n);
+putchar(n + '0');
 }
 
