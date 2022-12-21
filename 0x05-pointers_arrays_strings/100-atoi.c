@@ -4,8 +4,8 @@
 #include<ctype.h>
 /**
  *_atoi- the function that change value
- *@n: the pointer of n
- *@a: a value
+ *@s: the pointer of n
+ *
  */
 int _atoi(char *s)
 {
