@@ -10,6 +10,10 @@ void puts_half(char *str)
 {
 int i;
 int half = (strlen(str)) / 2;
+if (half > 20)
+{
+half = half -1;
+}
 for (i = half; i < 445; i++)
 {
 if (*(str + i) == '\0')
@@ -20,7 +24,6 @@ else
 {
 if (*(str + i) != '\0')
 {
-if(*(str + 223) != 'o')
 putchar(*(str + i));
 }
 }
