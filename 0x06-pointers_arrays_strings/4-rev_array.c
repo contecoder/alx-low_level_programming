@@ -11,17 +11,17 @@
  */
 void reverse_array(int *a, int n)
 {
-char myupper[1];
+int reverse[12];
 int i;
- int j;
-for (i = 0 ; i < n; i++)
+int j;
+for (i = 0; i < n; i++)
 {
-  myupper[i] = *(a + i);
+reverse[i] = *(a + i);
 }
- j = 0;
- for (i = n; i >= 0; i--)
-   {
-     *(a + j + 1) = myupper[i];
-     j++;
-   }
+j = 0;
+for (i = n - 1; i >= 0; i--)
+{
+*(a + j) = reverse[i];
+j++;
+}
 }
