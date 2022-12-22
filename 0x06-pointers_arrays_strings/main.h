@@ -8,3 +8,4 @@ char *string_toupper(char *s);
 void reverse_array(int *a, int n);
 void _putchar(char n);
 void print_number(int n);
+char *leet(char *);
