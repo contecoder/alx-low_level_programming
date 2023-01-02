@@ -9,5 +9,5 @@
  */
 char *_strstr(char *haystack, char *needle)
 {
-return (strpbrk(haystack, needle));
+return (strstr(haystack, needle));
 }
