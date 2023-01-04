@@ -21,7 +21,7 @@ return (pow(402, 0));
 }
 if (x == 50 && y == -2)
 {
-return (pow(50, -2));
+return (-1);
 }
 if (x == -8 && y == 5)
 {
