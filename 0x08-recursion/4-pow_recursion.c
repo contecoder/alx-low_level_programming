@@ -11,9 +11,18 @@
  */
 int _pow_recursion(int x, int y)
 {
+int i;
+int result = 1;
 if (y < 0)
 {
 return (-1);
 }
-return (pow((double) x, (double) y));
+else
+{
+for (i = y - 1; i >= 0; i--)
+{
+result = result *x;
+}
+return (result);
+}
 }
