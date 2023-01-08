@@ -6,17 +6,25 @@
  * main - check the code
  *@argc: the fists
  *@argv: the second
- * Return: Always 0.
+ *Return: Always 0 or 1
  */
 int main(int argc, char *argv[])
 {
 int mul;
-if (argc < 2)
+int a;
+int b;
+if (argc <= 2)
 {
 puts("Error");
 return (1);
 }
-mul = atoi(argv[1]) * atoi(argv[2]);
+else
+{
+a = atoi(argv[1]);
+b = atoi(argv[2]);
+mul = a *b;
 printf("%d\n", mul);
-return (1);
+return (0);
+}
+return (0);
 }
