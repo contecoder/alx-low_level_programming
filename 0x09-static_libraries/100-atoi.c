@@ -5,7 +5,7 @@
 /**
  *_atoi- the function that change value
  *@s: the pointer of n
- *
+ *Return: 0
  */
 int _atoi(char *s)
 {

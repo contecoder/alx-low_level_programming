@@ -1,6 +1,6 @@
 #include"main.h"
 /**
- *isdigit - that function function print  1 if lower 0 if not
+ *_isdigit - that function function print  1 if lower 0 if not
  *
  *@c: 1 (lowercase) 0 (uppercase)
  *Return: 0
