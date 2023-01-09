@@ -21,10 +21,8 @@ putchar(n);
  */
 void print_number(int n)
 {
-  if(n == 98)
-    {
-      putchar('9');
-      putchar('8');
-    }
+  char myc ;
+  itoa(n, myc, 10);
+  printf("%c",myc);
 }
 
